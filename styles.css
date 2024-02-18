@@ -1,3 +1,8 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/static/Inter-Regular.ttf) format('ttf');
+}
+
 .attribution { font-size: 11px; text-align: center; color: white; margin-top: 1rem; }
 .attribution a { color: rgb(201, 224, 71) }
 :root { 
@@ -17,6 +22,7 @@
     padding: 0px;
     box-sizing: border-box;
     margin: 0px;
+    font-family: inter;
 }
 body { 
     background-color: var(--black);
@@ -81,6 +87,7 @@ body {
     font-size: 0.875rem;
     font-weight: 700;
     cursor: pointer;
+    font-weight: bold;
 }
 .container ul li button:hover { 
     background-color: var(--color-yellow);
